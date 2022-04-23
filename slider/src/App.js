@@ -58,10 +58,10 @@ function App() {
             </article>
           )
         })}
-        <button className='prev' onClick={() => setIndex - 1}>
+        <button className='prev' onClick={() => setIndex(index - 1)}>
           <FiChevronLeft />
         </button>
-        <button className='next' onClick={() => setIndex + 1}>
+        <button className='next' onClick={() => setIndex(index + 1)}>
           <FiChevronRight />
         </button>
       </div>
